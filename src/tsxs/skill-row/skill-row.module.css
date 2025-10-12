@@ -1,0 +1,20 @@
+.skill-row {
+
+    /* color: red; */
+    /* span {} */
+    display: flex;
+    gap: 0.5rem;
+
+}
+
+.skill-name {
+    display: block;
+    width: 150px;
+}
+
+.skill-career {
+    display: block;
+    /* width: 200px; */
+}
+
+.bind-width {}
