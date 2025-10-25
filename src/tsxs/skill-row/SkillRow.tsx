@@ -9,7 +9,7 @@ const SkillRow = ({ skill }: { skill: skill_item }) => {
 
     return (
         <div className={styles['skill-row']}>
-            <img src={skill.icon_path} alt="" />
+            <img src={skill.icon_path} className={styles['skill-icon']} alt="" />
             <span className={styles['skill-name']}>{skill.name}</span>
             <span className={styles['skill-career']}>{skill.career ?? ""} {
                 is_valid_career ?

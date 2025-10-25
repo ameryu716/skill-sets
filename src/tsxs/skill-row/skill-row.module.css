@@ -7,6 +7,10 @@
 
 }
 
+.skill-icon {
+    width: 1rem;
+}
+
 .skill-name {
     display: block;
     width: 150px;
