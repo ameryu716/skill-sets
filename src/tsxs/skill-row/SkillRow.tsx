@@ -1,5 +1,12 @@
 import type { skill_item } from "../../types"
 import styles from './skill-row.module.css'
+import {
+    Popover,
+    PopoverContent,
+    PopoverTrigger,
+} from "@/components/ui/popover"
+import icon_more_horiz from '@/assets/more_horiz.svg'
+
 
 const SkillRow = ({ skill }: { skill: skill_item }) => {
 
@@ -17,6 +24,16 @@ const SkillRow = ({ skill }: { skill: skill_item }) => {
                     null
             }
             </span>
+            <Popover>
+                <PopoverTrigger className={styles['popover-trigger']}>
+                    <img src={icon_more_horiz} alt="" />
+                </PopoverTrigger>
+                <PopoverContent
+                    side="right"
+                    className={styles['popover-content'] + " w-50 py-1 pl-3 pr-3"}>
+                    {skill.sentence}
+                </PopoverContent>
+            </Popover>
         </div>
     )
 }
