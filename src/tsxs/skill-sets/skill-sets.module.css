@@ -17,6 +17,11 @@
     img {
         width: 2rem;
     }
+
+    @media (max-width: 500px) {
+        top: -1rem;
+        left: -0.5rem;
+    }
 }
 
 .github-link {
@@ -24,4 +29,9 @@
     position: absolute;
     top: -1rem;
     right: -1.5rem;
+
+    @media (max-width: 500px) {
+        top: -1rem;
+        right: -0.5rem;
+    }
 }

@@ -15,8 +15,10 @@
     padding: 2rem 3rem;
     color: #222;
 
-    @media (max-width: 400px) {
-        width: 100%;
+    @media (max-width: 500px) {
+        margin: 1rem;
+        width: calc(100% - 2rem);
+        padding: 0.5rem 1rem;
     }
 }
 
