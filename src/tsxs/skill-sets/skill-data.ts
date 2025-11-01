@@ -12,6 +12,10 @@ import si_laravel from '@/assets/skill-icons/laravel.svg'
 import si_nodejs from '@/assets/skill-icons/nodejs.svg'
 import si_win11 from '@/assets/skill-icons/win11.svg'
 import si_kotlin from '@/assets/skill-icons/kotlin.svg'
+import si_mysql from '@/assets/skill-icons/mysql.svg'
+import si_mssql from '@/assets/skill-icons/mssql.svg'
+import si_ddb from '@/assets/skill-icons/ddb.svg'
+
 
 // 
 const skill_sets_structures: skill_set_category_item[] = [
@@ -21,14 +25,14 @@ const skill_sets_structures: skill_set_category_item[] = [
             {
                 icon_path: si_vue,
                 name: "Vue(v2系,v3系)",
-                career: 3,
-                sentence: "VueJS",
+                career: 4,
+                sentence: "VueJSはメインで扱ってきた言語です。",
             },
             {
                 icon_path: si_svelte,
                 name: "Svelte",
                 career: 1,
-                sentence: "Svelte",
+                sentence: "SvelteはVueの次に好きなFWで、好んで使用しています。",
             },
         ],
     },
@@ -39,14 +43,13 @@ const skill_sets_structures: skill_set_category_item[] = [
                 icon_path: si_laravel,
                 name: "PHP(Laravel 8,9)",
                 career: 2,
-                sentence: "Laravel",
-
+                sentence: "Sanctumの使用を含むセキュアなREST-APIを、Laravelで構築・運用した経験があります。",
             },
             {
                 icon_path: si_nodejs,
                 name: "NodeJS(Express)",
-                career: 1,
-                sentence: "NodeJS",
+                career: 1.5,
+                sentence: "AWS Lambdaで動作するREST-APIを、Expressを用いて構築しました。",
             },
         ],
     },
@@ -55,15 +58,38 @@ const skill_sets_structures: skill_set_category_item[] = [
         lists: [
             {
                 icon_path: si_linux,
-                name: "Linux",
+                name: "Linux(WSL&Ubuntu)",
                 career: 1,
-                sentence: "Linux",
+                sentence: "WSLやUbuntuを開発業務や社内サーバーの運用を通して使用した経験があります。",
             },
             {
                 icon_path: si_aws,
                 name: "AWS",
                 career: 2,
-                sentence: "AWS",
+                sentence: "LambdaやDynamoDB、API-Gatewayはもちろん、Amplifyを通したAWSアプリケーションの構築も経験しました。",
+            },
+        ],
+    },
+    {
+        category: "Database",
+        lists: [
+            {
+                icon_path: si_mysql,
+                name: "MySQL",
+                career: 2,
+                sentence: "基本的なSQL操作、インデックス設定を含んだDB設計の経験があります。",
+            },
+            {
+                icon_path: si_mssql,
+                name: "SQL Server",
+                career: 1,
+                sentence: "基本的な操作、構文、基礎知識があります。",
+            },
+            {
+                icon_path: si_ddb,
+                name: "AWS DynamoDB",
+                career: 1.5,
+                sentence: "1万人規模の利用を見込むアプリケーションでの、キーシャーディングを考慮した設計を行った経験があります。",
             },
         ],
     },
@@ -74,19 +100,19 @@ const skill_sets_structures: skill_set_category_item[] = [
                 icon_path: si_react,
                 name: "React",
                 career: 0.5,
-                sentence: "React",
+                sentence: "このPortfolioページはReactを用いて作成しました。",
             },
             {
                 icon_path: si_kotlin,
                 name: "Kotlin",
                 career: 0.5,
-                sentence: "Kotlin",
+                sentence: "Kotlinを使用して独学でAndroidアプリを制作しました。",
             },
             {
                 icon_path: si_cs,
-                name: "C#",
+                name: "C#(.Net 6,8/API/WPF)",
                 career: 0.7,
-                sentence: "C#",
+                sentence: "LINQ等の基礎的な構文を理解しています。",
             },
         ],
     },
@@ -107,7 +133,7 @@ const skill_sets_structures: skill_set_category_item[] = [
                 icon_path: si_win11,
                 name: "Windows",
                 career: "Main",
-                sentence: "Win11",
+                sentence: "Win11をメインで使用しています。",
             },
         ],
     },
