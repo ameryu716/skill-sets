@@ -1,7 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 
-import './stylus/app.css'
 import './stylus/main.css'
 import './stylus/index.css'
 import './stylus/lib.css'
