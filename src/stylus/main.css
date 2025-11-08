@@ -32,6 +32,18 @@
     }
 }
 
+.note-paper {
+    background-color: #fff;
+    background-image:
+        linear-gradient(to bottom, #d6d6d622 1px, transparent 1px);
+    background-size: 100% 30px;
+    /* 行間 */
+    line-height: 30px;
+    /* テキストも罫線に合わせる */
+    padding: 12px;
+    font-family: "Yu Gothic", sans-serif;
+}
+
 h1 {
     display: block;
     margin-block-start: 0.67em;
@@ -44,6 +56,7 @@ h1 {
     line-height: 1.1;
     border-bottom: dashed 2px #aaa;
     padding-bottom: 0.3rem;
+    font-family: cursive, monospace;
 }
 
 h3 {

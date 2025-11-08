@@ -8,7 +8,7 @@ const ElSkillSets = () => {
     return (
         <>
             <div className="root">
-                <div className="paper">
+                <div className="paper note-paper">
                     <header className={styles['header']}>
                         <a href="https://amry.life" target="__brank" className={styles['arrow-left']}>
                             <img src={arrow_left} alt="arrow-left" />
