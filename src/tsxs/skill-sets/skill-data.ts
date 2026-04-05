@@ -16,6 +16,8 @@ import si_mysql from "@/assets/skill-icons/mysql.svg";
 import si_mssql from "@/assets/skill-icons/mssql.svg";
 import si_ddb from "@/assets/skill-icons/ddb.svg";
 
+import si_image_default from "@/assets/skill-icons/image.svg";
+
 //
 const skill_sets_structures: skill_set_category_item[] = [
     {
@@ -125,7 +127,7 @@ const skill_sets_structures: skill_set_category_item[] = [
         category: "Qualification",
         lists: [
             {
-                icon_path: "",
+                icon_path: si_image_default,
                 name: "ITパスポート",
                 career: 2025,
             },
